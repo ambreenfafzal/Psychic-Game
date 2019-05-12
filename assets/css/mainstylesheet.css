@@ -1,0 +1,69 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#start-button{
+    background-color: white;
+    color: black;
+   margin-top: 15%;
+   margin-left: 45%;
+
+}
+#start-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#show-main:hover {
+    background-color: black;
+    color: white;
+}
+#show-main{
+    background-color: white;
+    color: black;
+    margin-left: 46%;
+}
+p {
+    
+        position: relative;
+        font-family: sans-serif;
+        text-transform:uppercase;
+        font-size: 2em;
+        letter-spacing: 4px;
+        overflow: hidden;
+        background: linear-gradient(90deg, #000, #fff, #000);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 3s linear infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+      }
+      @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      }
+
+      .container {
+          background-color: white;
+          border: 1px solid black;
+          margin-top: 20px;
+      }
+
+      
+#game-over {
+    margin-top: 5%;
+    margin-left: 45%;
+
+    color: red;
+    }
+
+    #play-again{
+        margin-top: 0;
+
+     
+    }
